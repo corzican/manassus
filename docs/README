@@ -1,0 +1,12 @@
+/******************************************************************************
+* File History                                                                *
+* Version 00.1 : 01/05/2020 - File Created                                    *
+* Author(s) : Thomas Kilburn III (tkilburn@gmail.com)                         *
+******************************************************************************/
+
+Hello.
+
+The docs directory holds the documentation files which should be written in 
+LaTeX. The development environment is either Raspbian or WSL and I used 
+texlive-full. 100% use of Free Software and Open Source Software is the goal for 
+this small project.
