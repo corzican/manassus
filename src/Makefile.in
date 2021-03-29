@@ -1,0 +1,14 @@
+CC=@CC@
+LD=@CC@
+CFLAGS=@CFLAGS@
+LDFLAGS=@LDFLAGS@
+LIBS=@LIBS@
+
+manassus: manassus.o
+	$(LD) -o $@ $^ $(LDFLAGS) $(LIBS)
+
+
+
+.PHONY: clean
+clean:
+	rm -f manassus *.o
